@@ -31,23 +31,25 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-10">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 "
+                className="rounded-md duration-200 hover:scale-105 w-full"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                <button className=" px-4 py-1 m-4 border-2 border-[#df3c3c] bg-[#df3c3c] rounded-xl duration-200 hover:scale-105">
+                  Code
                 </button>
               </div>
             </div>
           ))}
         </div>
       </div>
+      <br />
+      <br />
     </div>
   );
 };
