@@ -10,7 +10,7 @@ const Footer = () => {
           <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com",
+      href: "https://twitter.com/melancon_jake",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Footer = () => {
           <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/jmelancon5817",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const Footer = () => {
           <FaInstagram size={30} />
         </>
       ),
-      href: "https:instagram.com",
+      href: "https://instagram.com/jake__melancon",
     },
   ];
 

@@ -12,7 +12,7 @@ const SocialLinks = () => {
           Twitter <FaTwitter size={30} />
         </>
       ),
-      href: "https://twitter.com",
+      href: "https://twitter.com/melancon_jake",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/jmelancon5817",
     },
     {
       id: 3,
