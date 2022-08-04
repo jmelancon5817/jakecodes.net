@@ -13,22 +13,27 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-2">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
-          laborum quia? Repellendus iste voluptates vitae possimus autem nostrum
-          eius. Dolores iste dolorum quia fugiat quos. Suscipit vitae amet alias
-          impedit aperiam quidem quam? Totam aspernatur molestias ex inventore.
-          Voluptatem quod iusto deleniti eligendi eos amet asperiores aliquam
-          earum voluptas maiores.
-        </p>
-        <br />
-        <p className="text-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat fuga,
-          doloribus quos consequuntur earum inventore quae odit sed, dolores
-          corrupti eius. Deserunt, iure fugit. Expedita, reiciendis quos! Dolor
-          modi voluptatem quae asperiores voluptas ipsum magnam perspiciatis
-          eaque? Voluptate temporibus, vel deserunt officia aperiam a, nulla
-          consectetur eaque dolores, cupiditate tenetur!
+        <p className="text-xl text-gray-300 leading-8">
+          <ul style={{ listStyleType: "disc" }}>
+            <li>Hello, I am a self-taught web developer from Louisiana.</li>
+            <li>
+              I resigned from my previous position at an environmental
+              consulting firm in pursuit of more fulfilling work in the tech
+              industry.
+            </li>
+            <li>
+              Since my departure I have continued to study computer science, web
+              development, and blockchain technology.
+            </li>
+            <li>
+              I am highly self-motivated, conscientious, and malleable in my
+              acquisition of new skills.
+            </li>
+            <li>
+              I am currently looking for an opportunity to narrow my focus and
+              take on a new career.
+            </li>
+          </ul>
         </p>
       </div>
     </div>
