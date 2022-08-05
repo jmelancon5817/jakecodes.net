@@ -1,21 +1,27 @@
 import React from "react";
-import chainlinkKeepers from "../assets/projects/chainlinkKeepers.jpg";
-import codecademy from "../assets/projects/codecademy.jpg";
+import keepers from "../assets/projects/keepers.jpg";
+import code from "../assets/projects/code.jpg";
 import nftMint from "../assets/projects/nftMint.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: codecademy,
+      src: keepers,
+      href: "https://github.com/jmelancon5817/Man-Beast_Dynamic_NFT",
+      title: "Dynamic NFT Contract",
     },
     {
       id: 2,
-      src: chainlinkKeepers,
+      src: nftMint,
+      href: "https://github.com/jmelancon5817/NFT_Mint_Website",
+      title: "NFT Mint Website",
     },
     {
       id: 3,
-      src: nftMint,
+      src: code,
+      href: "https://github.com/jmelancon5817/Codecademy-Full-Stack-Engineer-Career-Path",
+      title: "Full-Stack Engineer Career Path",
     },
   ];
 
@@ -31,17 +37,22 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-10">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-10">
+          {portfolios.map(({ id, src, href, title }) => (
+            <div
+              key={id}
+              className=" shadow-md shadow-gray-600 rounded-lg relative"
+            >
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105 w-full"
+                className="rounded-md duration-200 w-full h-3/4 hover:opacity-50"
               />
-              <div className="flex items-center justify-center">
-                <button className=" px-4 py-1 m-4 border-2 border-[#df3c3c] bg-[#df3c3c] rounded-xl duration-200 hover:scale-105">
-                  Code
+
+              <div className="flex flex-col items-center justify-center">
+                <div className="pt-1 text-gray-400">{title}</div>
+                <button className=" px-4 py-1 m-2 mb-10 border-2 border-[#df3c3c] bg-[#df3c3c] rounded-xl duration-200 hover:scale-105">
+                  <a href={href}>Code</a>
                 </button>
               </div>
             </div>
