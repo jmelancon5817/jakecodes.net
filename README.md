@@ -7,10 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 <p></p>
 
-<img alt="Header" width="40%" src="screenshots/header.png" />
-<img alt="Tech" width="40%" src="screenshots/tech.png" />
-<img alt="Footer" width="40%" src="screenshots/footer.png" />
-
+<img alt="Header" width="40%" src="src/assets/screenshots/header.png" />
+<img alt="Tech" width="40%" src="src/assets/screenshots/tech.png" />
+<img alt="Footer" width="40%" src="src/assets/screenshots/footer.png" />
 
 <h1>Tools Used</h1>
 <li>React</li>
