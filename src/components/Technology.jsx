@@ -12,7 +12,7 @@ const Technology = () => {
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-[#df3c3c] p-1 inline">
+          <p className="text-4xl font-bold border-b-4 border-[#df3c3c] p-1 inline mt-8">
             Technology
           </p>
         </div>
