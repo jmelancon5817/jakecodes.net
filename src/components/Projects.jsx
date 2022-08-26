@@ -1,15 +1,15 @@
 import React from "react";
-import keepers from "../assets/projects/keepers.jpg";
 import code from "../assets/projects/code.jpg";
 import nftMint from "../assets/projects/nftMint.jpg";
+import alienInvasion from "../assets/projects/alienInvasion.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: keepers,
-      href: "https://github.com/jmelancon5817/Man-Beast_Dynamic_NFT",
-      title: "Dynamic NFT Contract",
+      src: alienInvasion,
+      href: "https://github.com/jmelancon5817/Alien-Invasion",
+      title: "Alien Invasion Game",
     },
     {
       id: 2,
