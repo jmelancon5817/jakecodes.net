@@ -1,5 +1,5 @@
 import React from "react";
-import code from "../assets/projects/code.jpg";
+import youStream from "../assets/projects/youstream.jpg";
 import nftMint from "../assets/projects/nftMint.jpg";
 import alienInvasion from "../assets/projects/alienInvasion.jpg";
 
@@ -19,9 +19,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: code,
-      href: "https://github.com/jmelancon5817/Codecademy-Full-Stack-Engineer-Career-Path",
-      title: "Full-Stack Engineer Career Path",
+      src: youStream,
+      href: "https://github.com/jmelancon5817/You-Stream",
+      title: "Streaming Application",
     },
   ];
 
